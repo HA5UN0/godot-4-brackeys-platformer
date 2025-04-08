@@ -264,4 +264,7 @@ autoplay = "move"
 position = Vector2(389, -85)
 
 [node name="Slime" parent="." instance=ExtResource("6_epo15")]
-position = Vector2(446, -42)
+position = Vector2(397, -44)
+
+[node name="Slime2" parent="." instance=ExtResource("6_epo15")]
+position = Vector2(190, -45)
