@@ -15,6 +15,10 @@ run/main_scene="res://Scenes/game.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Music="*res://Scenes/music.tscn"
+
 [input]
 
 jump={
@@ -39,3 +43,5 @@ move_right={
 
 textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="mobile"
+textures/vram_compression/import_s3tc_bptc=true
+textures/vram_compression/import_etc2_astc=true
